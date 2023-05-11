@@ -136,7 +136,9 @@ a {
   margin: auto;
   padding-top: 40px;
 }
-
+.single-service{
+    margin-right: 10px;
+}
 .service {
   padding: 40px;
 }
@@ -144,7 +146,7 @@ a {
   display: flex;
 }
 .service-content img {
-  width: 90%;
+  width: 200px;
 }
 
 .service-content h2 {
@@ -258,12 +260,14 @@ footer {
   .single-contact input,
   .single-contact textarea {
     width: 100%;
+    height: 50%;
   }
 }
 footer {
   background-color: #1b9dff;
   color: white;
 }
+
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .header__container ul li a {
     margin: 0 10px;
@@ -329,6 +333,7 @@ footer {
   .single-contact input,
   .single-contact textarea {
     width: 80%;
+    height: 40%;
   }
 }
 
